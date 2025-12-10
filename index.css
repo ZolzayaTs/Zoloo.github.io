@@ -1,49 +1,54 @@
 body {
-font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 .header {
-padding: 50px;
-text-align: center;
-background: black;
-color: white;
+    padding: 50px;
+    text-align: center;
+    background: black;
+    color: white;
 }
 .navbar {
-overflow: hidden;
-background-color: gray;
+    overflow: hidden;
+    background-color: gray;
 }
 .navbar a {
-float: left;
-display: block;
-color: white;
-text-align: center;
-padding: 14px 20px;
-text-decoration: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 .navbar a:hover {
-background-color: gray;
-color: black;
+    background-color: gray;
+    color: black;
 }
 .row {
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .side {
-flex: 30%;
-background-color: black;
-padding: 20px;
+    flex: 30%;
+    background-color: black;
+    padding: 20px;
 }
 .main {
-flex: 70%;
-background-color: black;
-padding: 20px;
+    flex: 70%;
+    background-color: black;
+    padding: 20px;
 }
 .footer {
-padding: 20px;
-text-align: center;
-background: gray;
+    padding: 20px;
+    text-align: center;
+    background: gray;
 }
 .body-Text{
     flex: 60%;
     background: black;
     color: white;
 }
+.full-screen {
+    height: 100vh; /* дэлгэцийн өндөртэй тэнцүү */
+    background: black;
+}
+
