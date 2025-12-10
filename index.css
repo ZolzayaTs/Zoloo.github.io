@@ -40,7 +40,7 @@ padding: 20px;
 .footer {
 padding: 20px;
 text-align: center;
-background: #ddd;
+background: gray;
 }
 .body-Text{
     flex: 50%;
