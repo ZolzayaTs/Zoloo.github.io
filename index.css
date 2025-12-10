@@ -43,7 +43,7 @@ text-align: center;
 background: gray;
 }
 .body-Text{
-    flex: 50%;
+    flex: 60%;
     background: black;
     color: white;
 }
